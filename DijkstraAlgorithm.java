@@ -50,7 +50,7 @@ public class DijkstraAlgorithm {
             e.printStackTrace();
         }
     }
-
+// Dijkstra's algorithm to find the shortest paths from the source vertex to all other vertices
     static void dijkstra(List<List<Edge>> graph, int numVertices, int source, PrintWriter writer) {
         // Array to store the shortest distances from the source to each vertex
         int[] dist = new int[numVertices + 1];
